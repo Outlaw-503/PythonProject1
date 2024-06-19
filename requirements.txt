@@ -2,5 +2,5 @@ numpy
 pandas
 matplotlib
 seaborn
-streamlit
+streamlit>=1.26.0
 plotly
