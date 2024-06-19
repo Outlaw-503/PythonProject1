@@ -29,7 +29,8 @@ with d:
     data["Android Ver"]=data["Android Ver"].apply(c)
     data["Current Ver"]=data["Current Ver"].apply(c)
     import seaborn as sns
+    # f=plt.scatter(data["Size"],data["Reviews"])
     f=plt.scatter(data["Size"],data["Reviews"])
-    st.plotly_chart(f)
+    st.pyplot(f)
 
     
