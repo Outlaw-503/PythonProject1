@@ -14,7 +14,7 @@ with d:
         elif("K" in x):
             return float(x[:-1])
     data["Size"]=data["Size"].apply(c)
-    data.Installs.dropna(inplace=True
+    data.Installs.dropna(inplace=True)
     def a(x):
         if('+' in x):
             return float(x[:-1].replace(",",''))
