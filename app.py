@@ -30,6 +30,6 @@ with d:
     data["Current Ver"]=data["Current Ver"].apply(c)
     import seaborn as sns
     # f=plt.scatter(data["Size"],data["Reviews"])
-    st.scatter_chart(data=data,x="Size",y="Reviews)
+    st.scatter_chart(x=data["Size"],y=data["Reviews")
 
     
