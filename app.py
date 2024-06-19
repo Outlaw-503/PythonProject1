@@ -29,6 +29,7 @@ with d:
     data["Android Ver"]=data["Android Ver"].apply(c)
     data["Current Ver"]=data["Current Ver"].apply(c)
     import seaborn as sns
-    st.scatter_chart(data,x="Size",y="Reviews")
+    f=plt.scatter(data["Size"],data["Reviews"])
+    st.plotly_chart(f)
 
     
