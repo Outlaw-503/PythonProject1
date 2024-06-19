@@ -29,6 +29,6 @@ with d:
     data["Android Ver"]=data["Android Ver"].apply(c)
     data["Current Ver"]=data["Current Ver"].apply(c)
     import seaborn as sns
-    st.scatter_chart(data["Size"],data["Reviews"])
+    st.scatter_chart(data=data,x=data["Size"],y=data["Reviews"])
 
     
